@@ -1,0 +1,97 @@
+body {
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	
+	background:brown;
+	background-size:100%;
+	font-family:geneva;
+}
+.logo {
+	text-indent:-99999999999px;
+	background:url('logo.jpg');
+	width:220px;
+	height:135px;
+}
+header
+{
+	 background:brown;
+	 padding:0px;
+	 text-align:leftwards;
+	 font-family: Arial, Helvetica, sans-serif;
+	 margin:20px;
+	 
+	
+}
+
+.nav  ul 
+{
+	list-style-type:none; 
+	background-color:black;
+	overflow:hidden;
+	text-align:center;
+	padding:20px;
+	margin:0px;
+	capacity:0;
+
+}
+
+.nav  ul  li 
+{
+	display:inline-block;
+	text-decoration:none;
+	padding:5px 50px;
+	margin:0;
+}
+.nav  ul  li:hover
+{
+	background-color:brown;
+	padding:5px 52px;
+}
+a
+{
+	text-decoration:none;
+	color:white;
+}
+
+
+.nav ul  li :hover sub-nav{
+	display:block;
+	capacity:1;
+}
+.nav ul ul :sub-nav{
+	display:none;
+	position:absolute;
+}
+.nav ul ul li{
+	display:block;
+	
+}
+.nav ul  ul  li:hover{
+	background-color:brown;
+	display:inline-block;
+}
+.navbody{
+	background-image:url(s.jpg);
+	width:100%;
+	height:70vh;
+	margin-left:0px;
+}
+.footer{
+	
+	background:black;
+	position:fixed;
+	width:100%;
+	height:60px;
+	bottom:0;
+
+	 
+}
+.easty{
+	background-image:url(easty.jpg);
+	width:100%;
+	height:140vh;
+	margin-left:0px;
+	
+	
+}
